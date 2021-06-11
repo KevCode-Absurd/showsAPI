@@ -18,6 +18,7 @@ const displayImages = (shows) => {
     if (result.show.image) {
       const img = document.createElement("img");
       img.src = result.show.image.medium;
+      console.log(img.src)
       document.body.append(img);
     }
   }
